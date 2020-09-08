@@ -1,0 +1,13 @@
+#To combine multiple files
+#import os #To do OS operation,o show absolute path
+#import glob #To retrieve files/pathnames matching a specified pattern.
+#os.chdir('E:/D-drive/Project/Dataset/CSV_BoT-IoT/test')
+#extension = 'csv'
+#all_filenames = [ i for i in glob.glob('*.csv'. format(extension))]
+#ds = pd.concat([pd.read_csv(f,engine = 'python') for f in all_filenames ])
+#print(ds.head(5))
+#print(ds.shape)
+#To write
+#ds.to_csv('ds.csv', index = False, encoding = 'utf-8-sig')
+#print(ds.head(5))
+#print(ds.shape)
