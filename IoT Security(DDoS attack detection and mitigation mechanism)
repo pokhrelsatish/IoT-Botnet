@@ -1,0 +1,6 @@
+def seeversion():
+  print('matplotlib: {}'.format(matplotlib.__version__))
+  print('sys: {}'.format(sys.version))
+  print('pandas: {}'.format(pd.__version__))
+  print('sklearn: {}'.format(sklearn.__version__))
+  return
